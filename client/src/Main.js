@@ -1,23 +1,9 @@
 import React from 'react'
 
-import {projectsData} from './data/data.js'
-
 import ProjectCard from './ProjectCard'
-
-import cssLogo from './assets/css3.png'
-import expressLogo from './assets/express.png'
-import githubLogo from './assets/github.png'
-import htmlLogo from './assets/html5.png'
-import javascriptLogo from './assets/javascript.png'
-import mongodbLogo from './assets/mongodb.png'
-import nodeLogo from './assets/node-js.png'
-import reactLogo from './assets/react.png'
-import vscodeLogo from './assets/vscode.png'
-
 
 const Main = (props) => {
 
-  const { id, desktop_img, mobile_img, description, url, repo, display_date, in_progress, contributor, project_id } = props.projects
   const { skills, projects } = props
 
   
