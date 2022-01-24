@@ -6,7 +6,7 @@ import Header from './Header'
 import Main from './Main'
 import Footer from './Footer'
 
-const baseURL = process.env.REACT_APP_IS_PRODUCTION ? 'https://David-Saperstein-portfolio.herokuapp.com' : 'http://localhost:8080'
+const baseURL = process.env.REACT_APP_IS_PRODUCTION ? 'https://david-saperstein-portfolio.herokuapp.com' : 'http://localhost:8080'
 
 const App = () => {
 
